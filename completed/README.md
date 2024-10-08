@@ -1,23 +1,24 @@
-# CopilotLab
+# GitHub Copilot Lab - Completed Solution
 
-This is a C# console application named "CopilotLab".
+## Getting Started
 
-## Project Structure
+To run the completed solution, navigate to the `completed/CopilotLab` folder and run the `dotnet run` command.
 
-The project has the following files:
-
-- `CopilotLab/Program.cs`: This file contains the entry point of the console application. It includes the `Program` class with the `Main` method where the execution of the application starts.
-
-- `CopilotLab/CopilotLab.csproj`: This file is the project file for the C# console application. It includes the necessary configurations and references for building and running the application.
-
-- `CopilotLab.sln`: This file is the solution file for the project. It organizes multiple projects and their dependencies within a single solution.
-
-- `README.md`: This file contains the documentation for the project. It provides information about the project and its usage.
-
-## Usage
-
-To run the application, open the solution file `CopilotLab.sln` in your preferred C# development environment and build/run the project.
-
+```bash
+cd completed/CopilotLab
+dotnet run
 ```
 
-Please let me know if you need help with anything else.
+To run the tests, navigate to the `completed/CopilotLab.Tests` folder and run the `dotnet test` command.
+
+```bash
+cd completed/CopilotLab.Tests
+dotnet test
+```
+
+## Running in Codespaces
+
+You can also use Codespaces to run the project in the cloud.
+
+1. Fork this repository to your GitHub account.
+2. Click on the "Open in Codespaces" button at the top of the repository.
