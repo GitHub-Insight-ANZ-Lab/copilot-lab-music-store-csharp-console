@@ -25,7 +25,7 @@ namespace CopilotLab
 
         public void AddAlbum(Album album)
         {
-            if (_repository.Albums.Any(a => a.Title.Equals(album.Title, StringComparison.OrdinalIgnoreCase)))
+            if (!_repository.Albums.Any(a => a.Title.Equals(album.Title, StringComparison.OrdinalIgnoreCase)))
             {
                 _repository.Albums.Add(album);
             }

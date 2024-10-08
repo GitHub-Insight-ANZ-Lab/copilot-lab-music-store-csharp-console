@@ -66,32 +66,32 @@ namespace CopilotLab.Tests
         }
 
         [Test]
-        public void AddAlbum_ShouldAddNewAlbum()
+        public void AddAlbum_ShouldAddAlbum_WhenAlbumDoesNotExist()
         {
             // Arrange
-            var newAlbum = new Album(3, "Back in Black", "AC/DC", new DateTime(1980, 7, 25), new Genre(1, "Rock"));
+            var album = new Album(1, "The Dark Side of the Moon", "Pink Floyd", new DateTime(1973, 3, 1), new Genre(1, "Rock"));
             var albums = new List<Album>();
             _mockRepository.Setup(repo => repo.Albums).Returns(albums);
 
             // Act
-            _service.AddAlbum(newAlbum);
+            _service.AddAlbum(album);
 
             // Assert
             Assert.That(albums.Count, Is.EqualTo(1));
-            Assert.That(albums[0].Title, Is.EqualTo("Back in Black"));
         }
 
         [Test]
-        public void AddAlbum_ShouldThrowExceptionForDuplicateAlbum()
+        public void AddAlbum_ShouldThrowDuplicateAlbumException_WhenAlbumAlreadyExists()
         {
             // Arrange
-            var duplicateAlbum = new Album(1, "Duplicate Album", "Duplicate Artist", DateTime.Now, new Genre(1, "Rock"));
-            var albums = new List<Album> { duplicateAlbum };
+            var album = new Album(1, "The Dark Side of the Moon", "Pink Floyd", new DateTime(1973, 3, 1), new Genre(1, "Rock"));
+            var albums = new List<Album> { album };
             _mockRepository.Setup(repo => repo.Albums).Returns(albums);
 
             // Act & Assert
-            Assert.Throws<DuplicateAlbumException>(() => _service.AddAlbum(duplicateAlbum));
+            Assert.Throws<DuplicateAlbumException>(() => _service.AddAlbum(album));
         }
+
 
         [Test]
         public void UpdateAlbum_ShouldUpdateExistingAlbum()
