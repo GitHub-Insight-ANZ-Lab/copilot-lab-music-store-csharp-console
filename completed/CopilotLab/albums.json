@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "Title": "The Dark Side of the Moon",
+    "Artist": "Pink Floyd",
+    "ReleaseDate": "1973-03-01T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  },
+  {
+    "Id": 2,
+    "Title": "Thriller",
+    "Artist": "Michael Jackson",
+    "ReleaseDate": "1982-11-30T00:00:00",
+    "Genre": {
+      "Id": 2,
+      "Name": "Pop"
+    }
+  },
+  {
+    "Id": 3,
+    "Title": "Kind of Blue",
+    "Artist": "Miles Davis",
+    "ReleaseDate": "1959-08-17T00:00:00",
+    "Genre": {
+      "Id": 3,
+      "Name": "Jazz"
+    }
+  },
+  {
+    "Id": 4,
+    "Title": "Abbey Road",
+    "Artist": "The Beatles",
+    "ReleaseDate": "1969-09-26T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  },
+  {
+    "Id": 5,
+    "Title": "The Wall",
+    "Artist": "Pink Floyd",
+    "ReleaseDate": "1979-11-30T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  },
+  {
+    "Id": 6,
+    "Title": "Back in Black",
+    "Artist": "AC/DC",
+    "ReleaseDate": "1980-07-25T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  },
+  {
+    "Id": 7,
+    "Title": "Led Zeppelin IV",
+    "Artist": "Led Zeppelin",
+    "ReleaseDate": "1971-11-08T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  },
+  {
+    "Id": 8,
+    "Title": "The White Album",
+    "Artist": "The Beatles",
+    "ReleaseDate": "1968-11-22T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  },
+  {
+    "Id": 9,
+    "Title": "Born to Run",
+    "Artist": "Bruce Springsteen",
+    "ReleaseDate": "1975-08-25T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  },
+  {
+    "Id": 10,
+    "Title": "Hotel California",
+    "Artist": "Eagles",
+    "ReleaseDate": "1976-12-08T00:00:00",
+    "Genre": {
+      "Id": 1,
+      "Name": "Rock"
+    }
+  }
+]
