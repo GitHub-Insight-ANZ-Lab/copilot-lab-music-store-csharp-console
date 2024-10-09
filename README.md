@@ -12,7 +12,7 @@ Before starting the lab, make sure you have the following installed on your mach
 - .NET 8 SDK
 - GitHub Copilot extension
 
-You can also spin up a Codespace to run the lab in the cloud -
+You can also spin up a **Codespace** to run the lab in the cloud -
 
 1. Fork this repository to your GitHub account.
 2. Click on the "Open in Codespaces" button at the top of the repository.
