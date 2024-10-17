@@ -20,7 +20,7 @@ The lab is divided into multiple steps, each focusing on a specific aspect of bu
 
 Each step will guide you through the process of building the application using GitHub Copilot. You will be provided with instructions on how to interact with Copilot to generate code snippets, refactor code, write tests, and more.
 
-Complete the Lab Setup Instructions before proceeding with the lab exercises starting from [Step 1: Getting Started with GitHub Copilot: Setting Up C# Console App](./01-Step01.md).
+Complete the [Lab Setup Instructions](#lab-setup-instructions) to get started with the lab.
 
 Happy coding!
 
