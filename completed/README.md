@@ -2,14 +2,20 @@
 
 ## Getting Started
 
-To run the completed solution, navigate to the `completed/CopilotLab` folder and run the `dotnet run` command.
+To execute the completed solution, follow these steps:
+
+1. Open a terminal and navigate to the `completed/CopilotLab` directory.
+2. Run the application using the `dotnet run` command.
 
 ```bash
 cd completed/CopilotLab
 dotnet run
 ```
 
-To run the tests, navigate to the `completed/CopilotLab.Tests` folder and run the `dotnet test` command.
+To execute the test suite, follow these steps:
+
+1. Open a terminal and navigate to the `completed/CopilotLab.Tests` directory.
+2. Run the tests using the `dotnet test` command.
 
 ```bash
 cd completed/CopilotLab.Tests
@@ -18,7 +24,9 @@ dotnet test
 
 ## Running in Codespaces
 
-You can also use Codespaces to run the project in the cloud.
+You can also run this project in the cloud using GitHub Codespaces.
 
-1. Fork this repository to your GitHub account.
-2. Click on the "Open in Codespaces" button at the top of the repository.
+1. Fork this repository to your GitHub account by clicking the "Fork" button at the top right of the repository page.
+2. Once forked, click on the "Open in Codespaces" button at the top of your repository page to launch a new Codespace.
+
+This will set up a cloud-based development environment where you can run and test the project without needing to install anything locally.
