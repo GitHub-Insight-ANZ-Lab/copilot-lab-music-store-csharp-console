@@ -53,13 +53,15 @@ You can also use **Codespaces** to run the lab in the cloud:
 
 ![image](./media/474979958-8f0799d2-ec1f-4b8e-9f5a-16f8d0bc2611.png)
 
-You can find more information on how to use Codespaces in [Quickstart for GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart).
+You can find more information on how to use Codespaces [here](https://docs.github.com/en/codespaces/getting-started/quickstart).
 
 ## Getting Stuck?
 
 If you find yourself stuck at any point during the lab, remember to ask questions to GitHub Copilot in the chat. It's there to help you!
 
-However, if you're really stuck, you can take a peek at the finished solution here: [https://github.com/GitHub-Insight-ANZ-Lab/copilot-lab-music-store-csharp-console/tree/main/completed](https://github.com/GitHub-Insight-ANZ-Lab/copilot-lab-music-store-csharp-console/tree/main/completed). But remember, try to figure it out on your own first. The real learning happens when you're solving problems yourself!
+However, if you're really stuck, you can take a peek at the finished solution here: [https://github.com/GitHub-Insight-ANZ-Lab/copilot-lab-music-store-csharp-console/tree/main/completed](https://github.com/GitHub-Insight-ANZ-Lab/copilot-lab-music-store-csharp-console/tree/main/completed).
+
+But remember, try to figure it out on your own first. The real learning happens when you're solving problems yourself!
 
 ---
 
