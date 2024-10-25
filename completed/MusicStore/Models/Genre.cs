@@ -1,4 +1,4 @@
-﻿namespace CopilotLab
+﻿namespace MusicStore
 {
     public class Genre
     {

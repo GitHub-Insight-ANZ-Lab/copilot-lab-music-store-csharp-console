@@ -1,6 +1,6 @@
 using System;
 
-namespace CopilotLab
+namespace MusicStore
 {
     public class Album
     {
