@@ -4,21 +4,21 @@
 
 To execute the completed solution, follow these steps:
 
-1. Open a terminal and navigate to the `completed/CopilotLab` directory.
+1. Open a terminal and navigate to the `completed/MusicStore` directory.
 2. Run the application using the `dotnet run` command.
 
 ```bash
-cd completed/CopilotLab
+cd completed/MusicStore
 dotnet run
 ```
 
 To execute the test suite, follow these steps:
 
-1. Open a terminal and navigate to the `completed/CopilotLab.Tests` directory.
+1. Open a terminal and navigate to the `completed/MusicStore.Tests` directory.
 2. Run the tests using the `dotnet test` command.
 
 ```bash
-cd completed/CopilotLab.Tests
+cd completed/MusicStore.Tests
 dotnet test
 ```
 

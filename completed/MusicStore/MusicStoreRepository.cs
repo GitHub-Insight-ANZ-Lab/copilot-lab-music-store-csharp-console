@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-namespace CopilotLab
+namespace MusicStore
 {
     public class MusicStoreRepository
     {
