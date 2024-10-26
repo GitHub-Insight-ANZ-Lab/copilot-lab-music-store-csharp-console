@@ -173,5 +173,20 @@ namespace MusicStore.Tests
             Assert.That(result.Count, Is.EqualTo(2));
             Assert.That(result.All(a => a.Genre.Name == "Rock"));
         }
+
+        [Test]
+        public void SearchAlbumsByGenre_ShouldReturnEmptyList_WhenGenreDoesNotExist()
+        {
+            // Arrange
+            var album = new Album(1, "The Dark Side of the Moon", "Pink Floyd", new DateTime(1973, 3, 1), new Genre(1, "Rock"));
+            var albums = new List<Album> { album };
+            _mockRepository.Setup(repo => repo.Albums).Returns(albums);
+
+            // Act
+            var result = _service.SearchAlbumsByGenre("Pop");
+
+            // Assert
+            Assert.That(result.Count, Is.EqualTo(0));
+        }
     }
 }
