@@ -22,7 +22,7 @@ Each step will guide you through the process of building the application using G
 
 ## Lab Setup Instructions
 
-To get started, follow the setup instructions on the following link [Setting up your Environment](https://github-insight-anz-lab.github.io/github-copilot-labs-list/getting-started/#-setting-up-your-environment). This guide will help you configure IDE, GitHub Copilot, and other necessary prerequisites.
+To get started, follow the setup instructions at this link: [Setting up your Environment](https://github-insight-anz-lab.github.io/github-copilot-labs-list/getting-started/#-setting-up-your-environment). This guide will help you configure your IDE, GitHub Copilot, and other necessary prerequisites.
 
 > **Important:** It is recommended to fork the repository to your GitHub account before starting the exercise. This will allow you to save your changes and track your progress.
 
