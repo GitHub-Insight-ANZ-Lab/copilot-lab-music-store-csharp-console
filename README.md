@@ -26,22 +26,20 @@ Happy coding!
 
 ## Lab Setup Instructions
 
+To get started, follow the setup instructions on the [Setting up your Environment](https://github-insight-anz-lab.github.io/github-copilot-labs-list/getting-started/#-setting-up-your-environment) page. This guide will help you configure IDE, GitHub Copilot, and other necessary prerequisites.
+
+It is recommended to fork the repository to your GitHub account before starting the exercise. This will allow you to save your changes and track your progress -
+
+1. Fork this repository to your GitHub account.
+2. Clone the forked repository to your local machine.
+
 ### Using Local Environment
 
 **Prerequisites**
 
-Before starting the lab, ensure you have the following installed on your machine:
+You'll also need the following tools for this exercise:
 
-- Visual Studio Code
-- .NET 8 SDK
-- GitHub Copilot extension
-
-1. Fork this repository to your GitHub account.
-2. Clone the repository to your local machine.
-3. Open the repository in Visual Studio Code.
-4. Install the GitHub Copilot extension from the Visual Studio Code marketplace and sign in to your GitHub account to activate the extension.
-
-Note that you may be blocked from using the Copilot extension due to Firewall or VPN restrictions. If you encounter any issues, please contact your IT team to whitelist the GitHub Copilot extension. More information for troubleshooting common issues can be found [here](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot).
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 ### GitHub Codespaces
 
