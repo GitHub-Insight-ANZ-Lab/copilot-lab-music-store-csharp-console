@@ -20,18 +20,11 @@ The lab is divided into multiple steps, each focusing on a specific aspect of bu
 
 Each step will guide you through the process of building the application using GitHub Copilot. You will be provided with instructions on how to interact with Copilot to generate code snippets, refactor code, write tests, and more.
 
-Complete the [Lab Setup Instructions](#lab-setup-instructions) to get started with the lab.
-
-Happy coding!
-
 ## Lab Setup Instructions
 
-To get started, follow the setup instructions on the [Setting up your Environment](https://github-insight-anz-lab.github.io/github-copilot-labs-list/getting-started/#-setting-up-your-environment) page. This guide will help you configure IDE, GitHub Copilot, and other necessary prerequisites.
+To get started, follow the setup instructions on the following link [Setting up your Environment](https://github-insight-anz-lab.github.io/github-copilot-labs-list/getting-started/#-setting-up-your-environment). This guide will help you configure IDE, GitHub Copilot, and other necessary prerequisites.
 
-It is recommended to fork the repository to your GitHub account before starting the exercise. This will allow you to save your changes and track your progress -
-
-1. Fork this repository to your GitHub account.
-2. Clone the forked repository to your local machine.
+> **Important:** It is recommended to fork the repository to your GitHub account before starting the exercise. This will allow you to save your changes and track your progress.
 
 ### Using Local Environment
 
