@@ -49,9 +49,9 @@ You can also use **Codespaces** to run the lab in the cloud:
 2. Click on the "Open in Codespaces" button at the top of the repository.
 3. The Copilot extension is already installed in the Codespace. You may need to sign in to your GitHub account to activate the extension.
 
-![image](./media/474979958-8f0799d2-ec1f-4b8e-9f5a-16f8d0bc2611.png)
-
 You can find more information on how to use Codespaces [here](https://docs.github.com/en/codespaces/getting-started/quickstart).
+
+![image](./media/474979958-8f0799d2-ec1f-4b8e-9f5a-16f8d0bc2611.png)
 
 ## Getting Stuck?
 
