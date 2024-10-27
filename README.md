@@ -1,12 +1,12 @@
 # Welcome to the GitHub Copilot Lab
 
-## Introduction
-
-This lab is designed to help you get started with GitHub Copilot by exploring its capabilities and features. You will build a simple .NET Core console application for a music store, using Copilot to generate code snippets, sample data, refactor code, write tests, and more.
+This lab is designed to help you get started with GitHub Copilot by exploring its capabilities and features. You will build a simple .NET Core console application for a Music Store, using Copilot to generate code snippets, sample data, refactor code, write tests, and more.
 
 The goal is to familiarize yourself with GitHub Copilot and understand how it can assist you in writing code more efficiently. Apply your learnings to real-world application development scenarios.
 
 You can challenge yourself further by building more complex applications from other labs available in the GitHub Copilot Lab series.
+
+**Estimated time to complete:** `60 minutes`
 
 ## Lab Structure
 
