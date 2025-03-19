@@ -54,10 +54,6 @@ namespace MusicStore
             }
         }
 
-        /// <summary>
-        /// Prints the list of albums to the console.
-        /// </summary>
-        /// <param name="albums">The list of albums to print.</param>
         public static void PrintAlbums(List<Album> albums)
         {
             Console.WriteLine("--------------------------------------------------------------");
