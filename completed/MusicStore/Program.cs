@@ -65,7 +65,7 @@ namespace MusicStore
             Console.WriteLine("--------------------------------------------------------------");
             foreach (var album in albums)
             {
-                Console.WriteLine($"| {album.Id,-6} | {album.Title,-19} | {album.Artist,-18} | {album.Genre,-9} |");
+                Console.WriteLine($"| {album.Id,-6} | {album.Title,-19} | {album.Artist,-18} | {album.Genre.Name,-9} |");
             }
             Console.WriteLine("--------------------------------------------------------------");
         }
