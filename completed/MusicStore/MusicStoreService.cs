@@ -18,7 +18,7 @@ namespace MusicStore
             return _repository.Albums;
         }
 
-        public Album GetAlbum(int id)
+        public Album GetAlbumById(int id)
         {
             return _repository.Albums.FirstOrDefault(a => a.Id == id);
         }
@@ -66,12 +66,9 @@ namespace MusicStore
             return _repository.Albums.Where(a => a.Artist.Equals(artist, StringComparison.OrdinalIgnoreCase)).ToList();
         }
 
-        public List<Album> SearchAlbumsByGenre(string genre)
-        {
-            var genreId = _repository.Albums.FirstOrDefault(a => a.Genre.Name.Equals(genre, StringComparison.OrdinalIgnoreCase))?.Genre.Id;
-            if (genreId != null)
-                return _repository.Albums.Where(a => a.Genre.Id == genreId).ToList();
-            return new List<Album>();
+        public List<Album> SearchAlbumsByGenre(string genreName)
+        {           
+            return _repository.Albums.Where(a => a.Genre.Name.Equals(genreName, StringComparison.OrdinalIgnoreCase)).ToList();
         }
     }
 }
